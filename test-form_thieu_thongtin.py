@@ -27,6 +27,6 @@ time.sleep(2)
 
 # Kiểm tra xem form không bị submit thành công
 assert "Thanks for submitting the form" not in driver.page_source
-print("✅ Form không được submit do thiếu thông tin")
+print(" Form không được submit do thiếu thông tin")
 
 driver.quit()

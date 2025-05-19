@@ -31,12 +31,12 @@ time.sleep(1)
 
 # Kiểm tra phần kết quả hiển thị phía dưới
 result = driver.find_element(By.ID, "result").text
-print("✅ Kết quả hiển thị sau khi chọn checkbox:")
+print(" Kết quả hiển thị sau khi chọn checkbox:")
 print(result)
 
 assert "documents" in result.lower()
 assert "downloads" in result.lower()
 
-print("✅ Đã chọn checkbox thành công và kết quả đúng!")
+print(" Đã chọn checkbox thành công và kết quả đúng!")
 
 driver.quit()

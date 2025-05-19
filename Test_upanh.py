@@ -24,6 +24,6 @@ upload.send_keys(file_path)
 uploaded_value = driver.execute_script("return arguments[0].value;", upload)
 assert os.path.basename(file_path) in uploaded_value
 
-print("✅ Upload file thành công:", uploaded_value)
+print(" Upload file thành công:", uploaded_value)
 
 driver.quit()

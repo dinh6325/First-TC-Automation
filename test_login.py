@@ -35,7 +35,7 @@ time.sleep(3)
 
 # Kiểm tra đăng nhập thành công bằng tiêu đề trang mới
 assert "Logged In Successfully" in driver.page_source
-print("✅ Đăng nhập thành công!")
+print(" Đăng nhập thành công!")
 
 # Đóng trình duyệt
 driver.quit()
